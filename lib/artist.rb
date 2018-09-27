@@ -4,7 +4,7 @@ class Artist
   @@all = []
 
   def self.all
-    @@all 
+    @@all
   end
 
   def initialize(name)
@@ -38,6 +38,7 @@ class Artist
   end
 
   def print_songs
+    @songs
   end
 
 end
