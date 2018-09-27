@@ -11,9 +11,9 @@ class Artist
 #    @song = song
   end
 
-  def artist
-    @artist
-  end
+#  def artist
+#    @artist
+#  end
 
   def add_song(song)
     @songs << song
@@ -27,7 +27,7 @@ class Artist
   def self.find_or_create_by_name(name)
     if 
     else
-      artist = self.new(name)      
+      artist = self.new(name)
     end
   end
 
